@@ -1,28 +1,40 @@
-name: Payroll
-favicon: null
-layout_spectrum: 0.14887822372838855
-typography_spectrum: 0.39001669315621257
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.1594982
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9342554963659495
+  brandStrength: 0.7791815726086497
+  rhythmicContrast: 0.818459683097899
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.7791815726086497
   lightness: 0.9699462517164648
-  saturation: 0.9342554963659495
-  rhythmicContrast: 0.818459683097899
-purpose: []
+typography_spectrum: 0.7688172
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Payroll
